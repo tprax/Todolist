@@ -39,4 +39,14 @@ def delete_task
   @todoarr
 end
 
+def completed_task
+  puts "Here is the list of task you have."
+end
+
+def uncompleted_task
+  puts "These are the task that are not completed."
+end
+
+completed_task
+uncompleted_task
 delete_task
