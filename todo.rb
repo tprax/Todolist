@@ -24,8 +24,9 @@ test(answer)
 
 /starting main program/
 
-
-@todoarr = []
+@completed = ["Completed task"]
+@todoarr = ["test task", "test task 2"]
+@uncompleted = ["Uncompleted task"]
 /creating a task/
 def new_task
   puts "Please enter your new task!"
@@ -35,16 +36,15 @@ def new_task
 end
 
 def delete_task
-  puts "Lets delete a task!"
-  @todoarr
+  puts @todoarr
 end
 
 def completed_task
-  puts "Here is the list of task you have."
+  puts @completed
 end
 
 def uncompleted_task
-  puts "These are the task that are not completed."
+  puts @uncompleted
 end
 
 completed_task
