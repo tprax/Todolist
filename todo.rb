@@ -5,29 +5,31 @@ delete a task
 complete a task
 uncomplete a task
 /
-puts "hello world"
-puts "How are you doing today?"
-answer = gets.to_s
-puts answer
+def test1
+  puts "hello world"
+  puts "How are you doing today?"
+  @answer = gets.to_s
+  puts @answer
+end
 
-if answer === "good"
-  puts "That is great to hear!"
-else
-  puts "that is not good to hear."
+def test2
+  if @answer === "good"
+    puts "That is great to hear!"
+  else
+    puts "that is not good to hear."
+  end
 end
 
 def test(name)
   puts name
 end
 
-test(answer)
-
 /starting main program/
 
 @completed = ["Completed task"]
 @todoarr = ["test task", "test task 2"]
 @uncompleted = ["Uncompleted task"]
-/creating a task/
+
 def new_task
   puts "Please enter your new task!"
   newtodo = gets.to_s
@@ -47,6 +49,26 @@ def uncompleted_task
   puts @uncompleted
 end
 
-completed_task
-uncompleted_task
-delete_task
+/notes for programming in ruby
+Setting variables/
+
+/string/
+first_name = 'Tyler'
+last_name = 'Prax'
+world = 'world'
+/integer/
+first_number = 10
+/float/
+second_number = 2.0
+
+/output
+puts prints outputs to the screen/
+puts first_name
+puts last_name
+puts world
+puts first_number
+puts second_number
+
+
+
+
