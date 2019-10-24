@@ -27,11 +27,16 @@ test(answer)
 
 @todoarr = []
 /creating a task/
-def newtask
+def new_task
   puts "Please enter your new task!"
   newtodo = gets.to_s
   @todoarr << newtodo
   puts @todoarr
 end
 
-newtask
+def delete_task
+  puts "Lets delete a task!"
+  @todoarr
+end
+
+delete_task
