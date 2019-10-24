@@ -53,8 +53,8 @@ end
 Setting variables/
 
 /string/
-first_name = 'Tyler'
-last_name = 'Prax'
+first_name = 'What is your first name?'
+last_name = 'What is your last name?'
 world = 'world'
 /integer/
 first_number = 10
@@ -68,6 +68,11 @@ puts last_name
 puts world
 puts first_number
 puts second_number
+
+/getting user input/
+/user_input = gets/
+first_name = gets
+last_name = gets
 
 
 
