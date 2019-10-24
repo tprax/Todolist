@@ -15,3 +15,9 @@ if answer === "good"
 else
   puts "that is not good to hear."
 end
+
+def test(name)
+  puts name
+end
+
+test(answer)
