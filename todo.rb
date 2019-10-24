@@ -21,3 +21,17 @@ def test(name)
 end
 
 test(answer)
+
+/starting main program/
+
+
+@todoarr = []
+/creating a task/
+def newtask
+  puts "Please enter your new task!"
+  newtodo = gets.to_s
+  @todoarr << newtodo
+  puts @todoarr
+end
+
+newtask
