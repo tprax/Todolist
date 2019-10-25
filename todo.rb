@@ -74,6 +74,8 @@ puts second_number
 first_name = gets
 last_name = gets
 
+puts first_name
+puts last_name
 
 
 
