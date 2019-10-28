@@ -29,3 +29,6 @@ world = gets.to_s
 puts "Hello #{@firstname}"
 puts "So your last name is #{lastname}"
 puts "Also you are from #{world}"
+
+/arrays are ordered, integer-indexed collections of any objects. Starts at 0. /
+number_array = []
