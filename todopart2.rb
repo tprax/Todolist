@@ -32,3 +32,7 @@ puts "Also you are from #{world}"
 
 /arrays are ordered, integer-indexed collections of any objects. Starts at 0. /
 number_array = []
+number_array << 1
+number_array << 2
+number_array << 50
+puts "#{number_array}"
