@@ -20,5 +20,11 @@ puts float
 puts boolean
 /
 /Notes to on outputs and inputs from the user/
-puts "What is your first name"
+puts "What is your first name?"
 firstname = gets.to_s
+puts "What is your last name?"
+lastname = gets.to_s
+puts "Where are you from?"
+world = gets.to_s
+puts "Hello " + firstname
+
