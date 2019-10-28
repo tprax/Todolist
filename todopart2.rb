@@ -27,4 +27,5 @@ lastname = gets.to_s
 puts "Where are you from?"
 world = gets.to_s
 puts "Hello " + firstname
-
+puts "So your last name is " + lastname
+puts "Also you are from " + world
