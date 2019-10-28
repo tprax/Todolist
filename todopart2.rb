@@ -36,3 +36,6 @@ number_array << 1
 number_array << 2
 number_array << 50
 puts "#{number_array}"
+puts "First Number: #{number_array.first}"
+puts "Last Number: #{number_array.last}"
+
