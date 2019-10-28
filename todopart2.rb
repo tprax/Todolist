@@ -21,11 +21,11 @@ puts boolean
 /
 /Notes to on outputs and inputs from the user/
 puts "What is your first name?"
-firstname = gets.to_s
+@firstname = gets.to_s
 puts "What is your last name?"
 lastname = gets.to_s
 puts "Where are you from?"
 world = gets.to_s
-puts "Hello " + firstname
-puts "So your last name is " + lastname
-puts "Also you are from " + world
+puts "Hello #{@firstname}"
+puts "So your last name is #{lastname}"
+puts "Also you are from #{world}"
