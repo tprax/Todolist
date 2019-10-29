@@ -108,3 +108,27 @@ def hello(planet)
 end
 
 hello(your_planet)
+
+
+def tripple_my_number(number)
+   number * 3
+end
+
+def odd_or_even(new_number)
+  if new_number % 2 == 0
+    'even'
+  else
+    'odd'
+  end
+end  
+    
+puts "Please enter a number"
+user_number  = gets.to_i
+
+new_number = tripple_my_number(user_number)
+puts "your number is #{new_number}"
+
+boolean = odd_or_even(new_number)
+puts "your number is also #{boolean}"
+
+
