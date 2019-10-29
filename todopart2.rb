@@ -131,4 +131,25 @@ puts "your number is #{new_number}"
 boolean = odd_or_even(new_number)
 puts "your number is also #{boolean}"
 
+/conditionals
+-if, else if, else
+-case
+-ternary
+-unless
+/
+/example of conditionals/
+y = true
 
+if y == true
+  puts y
+end
+
+if y
+  puts y
+end
+
+if y
+  puts "It is True"
+else
+  puts "It is False"
+end
