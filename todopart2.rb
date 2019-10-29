@@ -95,10 +95,16 @@ foo = I am a locally scoped variable
 -always return the last line executed
 -if you have to use and or a or to describe what your method does you may have 2 methods
 /
-/example of a method/
+/example of methods/
 def hello_world
   puts 'Hello World'
 end
 
 hello_world
 
+your_planet = "mars"
+def hello(planet)
+  puts "Hello #{planet}"
+end
+
+hello(your_planet)
