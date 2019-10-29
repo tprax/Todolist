@@ -43,4 +43,36 @@ puts number_array[1]
 puts number_array[2]
 puts number_array[3]
 
+/
+first thing we are going to be covering
+Data types:
+Integers
+Float
+Boolean
+String
+Arrays, hashes, and objects
+everything in ruby is a data type
+/
+
+/variables/
+x = 1
+/this is an integer/
+
+x = 'hello world'
+/this is a String/
+
+x = true
+/this is a boolean/
+
+x = 1.4
+/this is a float/
+
+x = 1 + 24
+/this is a sum of 1 + 24 = 25 /
+
+x = 'Hello' + ' World'
+/this is a string concatenation/
+puts x
+
+
 
