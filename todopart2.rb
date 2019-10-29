@@ -153,3 +153,15 @@ if y
 else
   puts "It is False"
 end
+
+puts 'Please select 1, 2, or 3'
+number = gets.to_i
+
+case number
+  when 1,2
+    puts number
+  when 3
+    puts 'THREE'
+  else
+    puts 'Too high'
+end
