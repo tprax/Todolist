@@ -74,5 +74,16 @@ x = 'Hello' + ' World'
 /this is a string concatenation/
 puts x
 
-
-
+/
+Types of variables:
+Foo = I am a constant
+  -Captial 1st letter
+  -Scoped to the file
+  -Can be changed but should not be(ruby will warn you)
+foo = I am a locally scoped variable
+  -lowercase 1st letter & underscore case my_var
+  -Scoped to where it is defined for example in a method
+@foo = I am an instance variable
+  -Starts with an @ Symbol
+  -Scoped to the class or running instance
+/
