@@ -157,6 +157,7 @@ end
 puts 'Please select 1, 2, or 3'
 number = gets.to_i
 
+/example of a case/
 case number
   when 1,2
     puts number
@@ -165,3 +166,10 @@ case number
   else
     puts 'Too high'
 end
+
+/example of a ternary/
+/assignment = condition ? if : else/
+puts "please enter a number"
+num = gets.to_i
+a = num % 2 == 0 ? true : false
+puts a
