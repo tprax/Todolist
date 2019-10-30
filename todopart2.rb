@@ -186,3 +186,8 @@ puts arr.first
 puts arr.last
 
 /Method Chaining/
+str = "Hello class don't fall asleep"
+puts str.split(" ").last
+puts str.downcase.split(" ").join('-')
+/don't get carried away with method joining/
+
