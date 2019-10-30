@@ -173,3 +173,16 @@ puts "please enter a number"
 num = gets.to_i
 a = num % 2 == 0 ? true : false
 puts a
+
+/notes can run shell commands from ruby by using backticks ex. ``/
+
+/arrays notes/
+arr = ['A', 'B', 'C', 'D']
+puts arr[1]
+puts arr[0]
+puts arr[3]
+puts arr[4]
+puts arr.first
+puts arr.last
+
+/Method Chaining/
