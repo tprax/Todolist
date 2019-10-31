@@ -18,8 +18,8 @@ def options
   puts "1. Create a New Contact"
   puts "2. View current Contacts"
   puts "3. Exit your personal contact list"
-  user_selection = gets.to_i
-  case user_selection
+  @user_selection = gets.to_i
+  case @user_selection
     when 1
       puts "creates contact"
     when 2
@@ -40,3 +40,6 @@ def view_contacts
 end
 
 greeting
+while @user_selection < 3
+  options
+end
