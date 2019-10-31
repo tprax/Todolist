@@ -6,7 +6,7 @@ objectives
 -exit
 /
 
-@contact_array
+@contact_array = []
 
 def greeting
   puts "Welcome to your own personal Contact list"
@@ -36,6 +36,7 @@ end
 def create_contact
   puts "Please enter Contacts first name."
   contact_first_name = gets.to_s
+  @contact_array << contact_first_name
   puts "Please enter Contacts last name."
   contact_last_name = gets.to_s
   puts "Please enter Phone Number."
