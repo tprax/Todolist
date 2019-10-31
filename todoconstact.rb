@@ -6,7 +6,7 @@ objectives
 -exit
 /
 
-
+@contact_array
 
 def greeting
   puts "Welcome to your own personal Contact list"
@@ -21,7 +21,7 @@ def options
   @user_selection = gets.to_i
   case @user_selection
     when 1
-      puts "creates contact"
+      create_contact
     when 2
       puts "List contacts"
     when 3
@@ -34,12 +34,22 @@ def options
 end
 
 def create_contact
+  puts "Please enter Contacts first name."
+  contact_first_name = gets.to_s
+  puts "Please enter Contacts last name."
+  contact_last_name = gets.to_s
+  puts "Please enter Phone Number."
+  phone_number = gets.to_s
+  puts "Please enter email address."
+  email = gets.to_s
+  puts ""
 end
 
 def view_contacts
 end
 
 greeting
+
 while @user_selection < 3
   options
 end
