@@ -23,7 +23,7 @@ def options
     when 1
       create_contact
     when 2
-      puts "List contacts"
+      view_contacts
     when 3
       puts "Have a great day!"
       exit
@@ -36,10 +36,9 @@ end
 def create_contact
   puts "Please enter Contacts first name."
   contact_first_name = gets.to_s
-  @contact_array << contact_first_name
   puts "Please enter Contacts last name."
   contact_last_name = gets.to_s
-  @contact_array << contact_last_name
+  @contact_array << "#{contact_first_name}" + "#{contact_last_name}"
   puts "Please enter Phone Number."
   phone_number = gets.to_s
   @contact_array << phone_number
@@ -50,6 +49,9 @@ def create_contact
 end
 
 def view_contacts
+  puts ""
+  puts @contact_array
+  puts ""
 end
 
 greeting
