@@ -39,10 +39,13 @@ def create_contact
   @contact_array << contact_first_name
   puts "Please enter Contacts last name."
   contact_last_name = gets.to_s
+  @contact_array << contact_last_name
   puts "Please enter Phone Number."
   phone_number = gets.to_s
+  @contact_array << phone_number
   puts "Please enter email address."
   email = gets.to_s
+  @contact_array << email
   puts ""
 end
 
