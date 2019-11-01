@@ -34,15 +34,13 @@ def options
 end
 
 def create_contact
-  puts "Please enter Contacts first name."
-  contact_first_name = gets.to_s
-  puts "Please enter Contacts last name."
-  contact_last_name = gets.to_s
-  @contact_array << "#{contact_first_name}" + "#{contact_last_name}"
+  puts "Please enter Contacts Full Name."
+  contact_name = gets.to_s
+  @contact_array << contact_name
   puts "Please enter Phone Number."
   phone_number = gets.to_s
   @contact_array << phone_number
-  puts "Please enter email address."
+  puts "Please enter Email Address."
   email = gets.to_s
   @contact_array << email
   puts ""
