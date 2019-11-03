@@ -19,3 +19,20 @@ end
 [ "A", "B", "C" ].each_with_index do |letter, i|
   puts "#{i} => #{letter}"
 end
+
+/modifying arrays/
+test_arr = [ "A", "B", "C" ]
+test_arr << "D"
+puts test_arr
+
+tes_arr = ["B", "C", "D"].unshift("A")
+puts test_arr
+
+test_arr.shift
+puts test_arr
+
+test_arr.pop
+puts test_arr
+
+test_arr.insert(1, "z")
+puts test_arr
