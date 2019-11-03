@@ -14,3 +14,8 @@ arr = [1, "a", Array.new, {}, (1+2)]
 ["a", "b", "c"].each do |letter|
   puts letter
 end
+
+/Iterating Arrays(With index)/
+[ "A", "B", "C" ].each_with_index do |letter, i|
+  puts "#{i} => #{letter}"
+end
