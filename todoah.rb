@@ -36,3 +36,12 @@ puts test_arr
 
 test_arr.insert(1, "z")
 puts test_arr
+
+arr_test2 = [1,2,3].rotate
+puts arr_test2
+
+arr_test3 = [1,2,3].reverse
+puts arr_test3
+
+arr_sort = ["S","Z","P","T"].sort
+puts arr_sort
