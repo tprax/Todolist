@@ -51,3 +51,11 @@ puts arr
 
 arr.clear
 puts arr
+
+/hashes notes/
+/A hash is a dictionary-like collection of unique keys and their values. Also called associative arrays,
+they are similar to Arrays, but where an array uses integers as its index, s Hash allows you to use any object
+type./
+
+/What is a hash?
+A hash is a 'Key','value' pair/
