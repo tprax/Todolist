@@ -21,7 +21,7 @@ end
 end
 
 /modifying arrays/
-test_arr = [ "A", "B", "C" ]
+/test_arr = [ "A", "B", "C" ]
 test_arr << "D"
 puts test_arr
 
@@ -50,7 +50,7 @@ arr.delete_at(1)
 puts arr
 
 arr.clear
-puts arr
+puts arr/
 
 /hashes notes/
 /A hash is a dictionary-like collection of unique keys and their values. Also called associative arrays,
@@ -58,4 +58,10 @@ they are similar to Arrays, but where an array uses integers as its index, s Has
 type./
 
 /What is a hash?
-A hash is a 'Key','value' pair/
+A hash is a 'Key','value' pair
+-contained in { }
+-keys can be symbols, strings, ints,...,objects/
+
+/Create a Hash/
+person = { first_name: 'Bob', last_name: 'Bobson', age: 25 }
+puts person
