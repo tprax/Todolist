@@ -45,3 +45,9 @@ puts arr_test3
 
 arr_sort = ["S","Z","P","T"].sort
 puts arr_sort
+
+arr.delete_at(1)
+puts arr
+
+arr.clear
+puts arr
