@@ -67,3 +67,11 @@ person2[:first_name] = 'Abraham'
 puts person2[:first_name]
 person2[:awesome_bread] = true
 puts person2
+
+/Array of hashes/
+people = [
+  {first_name: 'Dave', last_name: 'Jungst'},
+  {first_name: 'Bat', last_name: 'Man', age: 30},
+  {first_name: 'Jake', last_name: 'Sorce'}
+]
+puts people
