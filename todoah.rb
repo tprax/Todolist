@@ -59,3 +59,11 @@ A hash is a 'Key','value' pair
 person = { first_name: 'Bob', last_name: 'Bobson', age: 25 }
 puts person [:first_name]
 puts person [:last_name]
+puts person [:age]
+puts person [:hair_style]
+
+person2 = { first_name: 'Aba', last_name: 'Lincoln' }
+person2[:first_name] = 'Abraham'
+puts person2[:first_name]
+person2[:awesome_bread] = true
+puts person2
