@@ -74,4 +74,5 @@ people = [
   {first_name: 'Bat', last_name: 'Man', age: 30},
   {first_name: 'Jake', last_name: 'Sorce'}
 ]
-puts people
+puts people.first
+puts people.last[:last_name]
