@@ -57,4 +57,5 @@ A hash is a 'Key','value' pair
 
 /Create a Hash/
 person = { first_name: 'Bob', last_name: 'Bobson', age: 25 }
-puts person
+puts person [:first_name]
+puts person [:last_name]
