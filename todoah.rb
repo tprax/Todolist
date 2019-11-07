@@ -76,3 +76,22 @@ people = [
 ]
 puts people.first
 puts people.last[:last_name]
+
+/fun with hashes/
+hash = { hero: 'Batman', wealth: '$$$', suit_color: 'Black'}
+puts hash.keys
+hash.delete(:suit_color)
+hash.clear
+puts hash.has_key? :car
+
+/Blocks, Procs, and Lambdas/
+
+/Blocks can be defined loosely as anything between a do and end or {}/
+/example of blocks/
+arr =[1,2,3,5,6,7,0]
+arr.each do |num|
+  /block/ puts num ** 2
+end
+
+arr.each {|num| puts num ** 2}
+
