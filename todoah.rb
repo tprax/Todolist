@@ -103,3 +103,14 @@ end
 /calling a proc/
 num = square.call(2)
 puts num
+/Procs are great for saving common functionality for later use. they can be passed as parameters to a method/
+
+/Lambdas/
+/Similar to procs, in fact, they are both Procs behind the scenes. This syntx is very similar./
+lam = lambda {puts "Hello World"}
+lam.call
+
+/The main difference is that lambdas check the number of parameters are sent in. This is a good thing./
+/lambdas have shorthand as well./
+x = -> { puts 1 + 1 }
+x.call
