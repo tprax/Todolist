@@ -90,8 +90,16 @@ puts hash.has_key? :car
 /example of blocks/
 arr =[1,2,3,5,6,7,0]
 arr.each do |num|
-  /block/ puts num ** 2
+  puts num ** 2
 end
 
 arr.each {|num| puts num ** 2}
 
+/Procs behave exactly the same way as blocks except they can be saved and are not run until they are called/
+/proc example/
+square = Proc.new do |num|
+  num ** 2
+end
+/calling a proc/
+num = square.call(2)
+puts num
