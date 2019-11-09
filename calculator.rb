@@ -12,9 +12,10 @@ end
 
 def first_number
   puts "Please enter first number."
-  first_number = gets.to_i
+  user_first_number = gets.to_i
   modifer
 end
+
 
 def modifer
   puts "Please enter modifer."
