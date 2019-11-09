@@ -5,18 +5,29 @@ get second number
 puts results/
 /add error checking/
 
-def first_number
+def greeting
+  puts "Welcome to your Calculator"
+  first_number
+end
 
+def first_number
+  puts "Please enter first number."
+  first_number = gets.to_i
+  modifer
 end
 
 def modifer
-
+  puts "Please enter modifer."
+  second_number
 end
 
 def second_number
-
+  puts "Please enter second number."
+  results
 end
 
 def results
-
+  puts "Here are your results"
 end
+
+greeting
