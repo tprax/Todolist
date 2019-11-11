@@ -5,7 +5,6 @@ get second number
 puts results/
 /add error checking/
 
-
 def greeting
   puts "Welcome to your Calculator"
   first_number
@@ -13,7 +12,7 @@ end
 
 def first_number
   puts "Please enter first number."
-  user_first_number = gets.to_i
+  @user_first_number = gets.to_i
   modifer
 end
 
@@ -21,10 +20,11 @@ end
 def modifer
   puts "Please enter modifer."
   operation = gets.to_s.strip
-  puts operation
   case operation
     when operation = "*"
-      puts "multiple"
+      second_number
+      @answer = @user_first_number * @user_second_number
+      results
     when operation = "/"
       puts "Divide"
     when operation = "+"
@@ -34,16 +34,15 @@ def modifer
     else
       puts "Sorry that is not a valid operation please enter one of these (*,/,+,-)"
   end
-  second_number
 end
 
 def second_number
   puts "Please enter second number."
-  results
+  @user_second_number = gets.to_i
 end
 
 def results
-  puts "Here are your results"
+  puts @answer
 end
 
 greeting
