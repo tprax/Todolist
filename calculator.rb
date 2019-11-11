@@ -5,6 +5,7 @@ get second number
 puts results/
 /add error checking/
 
+@answer_array = []
 def greeting
   puts "Welcome to your Calculator"
   first_number
@@ -43,6 +44,7 @@ end
 
 def results
   puts @answer
+  @answer_array << @answer
 end
 
 greeting
