@@ -24,14 +24,16 @@ def modifer
   case operation
     when operation = "*"
       second_number
-      @answer = @user_first_number * @user_second_number
-      results
+      multiple
     when operation = "/"
-      puts "Divide"
+      second_number
+      divide
     when operation = "+"
-      puts "Sum"
+      second_number
+      addition
     when operation = "-"
-      puts "Substract"
+      second_number
+      substraction
     else
       puts "Sorry that is not a valid operation please enter one of these (*,/,+,-)"
   end
@@ -43,12 +45,18 @@ def second_number
 end
 
 def addition
+  @answer = @user_first_number + @user_second_number
+  results
 end
 
 def substraction
+  @answer = @user_first_number - @user_second_number
+  results
 end
 
 def multiple
+  @answer = @user_first_number * @user_second_number
+  results
 end
 
 def divide
