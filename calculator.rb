@@ -60,6 +60,8 @@ def multiple
 end
 
 def divide
+  @answer = @user_first_number / @user_second_number
+  results
 end
 
 def results
