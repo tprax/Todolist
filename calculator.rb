@@ -42,6 +42,18 @@ def second_number
   @user_second_number = gets.to_i
 end
 
+def addition
+end
+
+def substraction
+end
+
+def multiple
+end
+
+def divide
+end
+
 def results
   puts @answer
   @answer_array << @answer
