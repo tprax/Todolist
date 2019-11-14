@@ -5,19 +5,21 @@ get second number
 puts results/
 /add error checking/
 
+/greeting/
 @answer_array = []
 def greeting
   puts "Welcome to your Calculator"
   first_number
 end
 
+/getting first number/
 def first_number
   puts "Please enter first number."
   @user_first_number = gets.to_i
   modifer
 end
 
-
+/Modifer/
 def modifer
   puts "Please enter modifer."
   operation = gets.to_s.strip
@@ -39,11 +41,13 @@ def modifer
   end
 end
 
+/getting second number/
 def second_number
   puts "Please enter second number."
   @user_second_number = gets.to_i
 end
 
+/modifers being performed down below/
 def addition
   @answer = @user_first_number + @user_second_number
   results
